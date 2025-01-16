@@ -15,9 +15,9 @@ print("b = ", b )
 a = int(input("First Number (a):"))
 b = int(input("Second Number (b):"))
 
-a = a - b
 a = a + b
 b = a - b
+a = a - b
 
 print("a = ", a)
 print("b = ", b )
