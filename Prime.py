@@ -3,7 +3,7 @@ import sympy
 
 n = int(input("Enter the number:"))
 
-if (sympy.isprime(n))
+if (sympy.isprime(n)):
   print("It is prime")
-else
+else:
   print("It is not prime")
