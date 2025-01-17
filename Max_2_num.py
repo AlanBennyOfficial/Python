@@ -1,4 +1,4 @@
-# Find the max of 2 numbers
+# Find the max (biggest) of 2 numbers
 
 a = int(input("First Number:"))
 b = int(input("Second Number:"))
