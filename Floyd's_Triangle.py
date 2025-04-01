@@ -10,3 +10,4 @@ def floyd_triangle(rows):
 if __name__ == "__main__":
     rows = int(input("Enter the number of rows for Floyd's Triangle: "))
     floyd_triangle(rows)
+
