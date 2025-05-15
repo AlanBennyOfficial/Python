@@ -6,13 +6,13 @@ class Admin: # only one with password access
         self.__password = __password
 
     def display_details(self, email, username):
-            print(f"email: {self.email}"),
-            print(f"username: {self.username}"),
+            print(f"email: {self.email}")
+            print(f"username: {self.username}")
             print(f"access_level: {self.access_level}")
         
 
     def login(self, email, username, __password):
-            self.username = input("username: ") ,
+            self.username = input("username: ")
             self.__password = input("password: ")
         
 
@@ -27,7 +27,6 @@ class Engineer(Admin): # Email & username access
     def login(self, email, username, __password):
         return super().login(email, username, __password)
     
-
 
 class User(Engineer): # No password access
     def __init__(self, email, username, __password):
